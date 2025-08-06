@@ -4,4 +4,5 @@ USER root
 RUN install-php-extensions intl sockets excimer
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
 RUN install-php-extensions gd
+RUN install-php-extensions exif
 USER www-data
