@@ -23,13 +23,11 @@ RUN install-php-extensions \
     mysqli \
     pdo_mysql \
     pdo_pgsql \
-    pdo_sqlsrv \
     pspell \
     redis \
     shmop \
     soap \
     sockets \
-    sqlsrv \
     xsl \
     zip
 
