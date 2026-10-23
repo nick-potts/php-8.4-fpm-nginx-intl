@@ -1,4 +1,4 @@
-FROM serversideup/php:8.4-fpm-nginx AS base
+FROM serversideup/php:8.4.27-fpm-nginx-v4.5.3 AS base
 
 USER root
 RUN apt-get update && apt-get install -y git && rm -rf /var/lib/apt/lists/*
